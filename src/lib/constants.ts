@@ -1,6 +1,6 @@
-export const APP_TITLE = "Acme";
-export const DATABASE_PREFIX = "acme_v3";
-export const EMAIL_SENDER = '"Acme" <noreply@acme.com>';
+export const APP_TITLE = "StuVibe";
+export const DATABASE_PREFIX = "authdb_v3";
+export const EMAIL_SENDER = '"StuVibe" <noreply@femprishtest.online>';
 
 export const redirects = {
   toLogin: "/login",

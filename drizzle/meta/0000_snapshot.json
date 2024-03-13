@@ -1,11 +1,11 @@
 {
   "version": "5",
   "dialect": "mysql",
-  "id": "45c5b9ad-6f11-4d15-9abb-43bcbc25afab",
+  "id": "5eb2fbf6-f007-444c-8ea3-eff409518dee",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "tables": {
-    "acme_v3_email_verification_codes": {
-      "name": "acme_v3_email_verification_codes",
+    "authdb_v3_email_verification_codes": {
+      "name": "authdb_v3_email_verification_codes",
       "columns": {
         "id": {
           "name": "id",
@@ -61,24 +61,24 @@
       },
       "foreignKeys": {},
       "compositePrimaryKeys": {
-        "acme_v3_email_verification_codes_id": {
-          "name": "acme_v3_email_verification_codes_id",
+        "authdb_v3_email_verification_codes_id": {
+          "name": "authdb_v3_email_verification_codes_id",
           "columns": [
             "id"
           ]
         }
       },
       "uniqueConstraints": {
-        "acme_v3_email_verification_codes_user_id_unique": {
-          "name": "acme_v3_email_verification_codes_user_id_unique",
+        "authdb_v3_email_verification_codes_user_id_unique": {
+          "name": "authdb_v3_email_verification_codes_user_id_unique",
           "columns": [
             "user_id"
           ]
         }
       }
     },
-    "acme_v3_password_reset_tokens": {
-      "name": "acme_v3_password_reset_tokens",
+    "authdb_v3_password_reset_tokens": {
+      "name": "authdb_v3_password_reset_tokens",
       "columns": {
         "id": {
           "name": "id",
@@ -113,8 +113,8 @@
       },
       "foreignKeys": {},
       "compositePrimaryKeys": {
-        "acme_v3_password_reset_tokens_id": {
-          "name": "acme_v3_password_reset_tokens_id",
+        "authdb_v3_password_reset_tokens_id": {
+          "name": "authdb_v3_password_reset_tokens_id",
           "columns": [
             "id"
           ]
@@ -122,8 +122,8 @@
       },
       "uniqueConstraints": {}
     },
-    "acme_v3_posts": {
-      "name": "acme_v3_posts",
+    "authdb_v3_posts": {
+      "name": "authdb_v3_posts",
       "columns": {
         "id": {
           "name": "id",
@@ -210,8 +210,8 @@
       },
       "foreignKeys": {},
       "compositePrimaryKeys": {
-        "acme_v3_posts_id": {
-          "name": "acme_v3_posts_id",
+        "authdb_v3_posts_id": {
+          "name": "authdb_v3_posts_id",
           "columns": [
             "id"
           ]
@@ -219,8 +219,8 @@
       },
       "uniqueConstraints": {}
     },
-    "acme_v3_sessions": {
-      "name": "acme_v3_sessions",
+    "authdb_v3_sessions": {
+      "name": "authdb_v3_sessions",
       "columns": {
         "id": {
           "name": "id",
@@ -255,8 +255,8 @@
       },
       "foreignKeys": {},
       "compositePrimaryKeys": {
-        "acme_v3_sessions_id": {
-          "name": "acme_v3_sessions_id",
+        "authdb_v3_sessions_id": {
+          "name": "authdb_v3_sessions_id",
           "columns": [
             "id"
           ]
@@ -264,8 +264,8 @@
       },
       "uniqueConstraints": {}
     },
-    "acme_v3_users": {
-      "name": "acme_v3_users",
+    "authdb_v3_users": {
+      "name": "authdb_v3_users",
       "columns": {
         "id": {
           "name": "id",
@@ -373,22 +373,22 @@
       },
       "foreignKeys": {},
       "compositePrimaryKeys": {
-        "acme_v3_users_id": {
-          "name": "acme_v3_users_id",
+        "authdb_v3_users_id": {
+          "name": "authdb_v3_users_id",
           "columns": [
             "id"
           ]
         }
       },
       "uniqueConstraints": {
-        "acme_v3_users_discord_id_unique": {
-          "name": "acme_v3_users_discord_id_unique",
+        "authdb_v3_users_discord_id_unique": {
+          "name": "authdb_v3_users_discord_id_unique",
           "columns": [
             "discord_id"
           ]
         },
-        "acme_v3_users_email_unique": {
-          "name": "acme_v3_users_email_unique",
+        "authdb_v3_users_email_unique": {
+          "name": "authdb_v3_users_email_unique",
           "columns": [
             "email"
           ]
